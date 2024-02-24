@@ -1,0 +1,27 @@
+header {
+    display: grid;
+    grid-template-columns: 2fr 7fr 12fr;
+    align-items: center;
+}
+
+nav {
+    display: grid;
+    grid-template-columns: 60px 60px 60px 60px 80px ;
+}
+
+main {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
+    justify-items: center;
+}
+
+.footer_section {
+    display: grid;
+    grid-template-rows: auto;
+}
